@@ -22,7 +22,7 @@
   * [2.8 速率限制](openai-zh/013-Rate-Limits.md)
   * [2.9 错误代码](openai-zh/014-Error-codes.md)
   * [2.10 安全最佳实践](openai-zh/015-Safty-best-practices.md)
-  * [2.11 产品最佳实践](openai-zh/016-Production-best -practices.md)
+  * [2.11 产品最佳实践](openai-zh/016-Production-best-practices.md)
 * **3 插件**
   * [3.1 介绍](openai-zh/017-Introduction.md)
   * [3.2 开始](openai-zh/018-Getting-Started.md)
