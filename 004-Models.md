@@ -4,16 +4,16 @@
 
 OpenAI API 由一组能力和价格不同的多样化模型支持。您还可以通过 [微调](https://platform.openai.com/docs/guides/fine-tuning) 对我们的原始基础模型进行有限的定制，以适应您特定的用例。
 
-| 模型                                                         | 模型                                                         |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [GPT-4](https://platform.openai.com/docs/models/gpt-4) 有限的测试版 | 一组模型，可以在 GPT-3.5 基础上进行改进，能够理解并生成自然语言或代码。 |
-| [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5)   | OpenAI正在开发一组名为 Codex 的新模型，它们是在 GPT-3 基础上进行改进的。Codex 模型可以生成代码，并具有编码和自然语言理解功能。这些模型正在不断优化中，OpenAI 希望这些模型能够进一步改善自然语言和代码生成方面的性能表现。 |
-| [DALL·E](https://platform.openai.com/docs/models/dall-e)Beta | 一个模型，可以根据自然语言提示生成和编辑图像。               |
-| [Whisper](https://platform.openai.com/docs/models/whisper)Beta | 一个可以将音频转换为文本的模型。                             |
-| [Embeddings](https://platform.openai.com/docs/models/embeddings)（嵌入） | 一组能够将文本转换成数字形式的模型                           |
-| [Moderation](https://platform.openai.com/docs/models/moderation)（审查） | 一种经过调整的模型，能够检测文本中可能存在敏感或不安全内容。 |
-| [GPT-3](https://platform.openai.com/docs/models/gpt-3)       | 一组可以理解和生成自然语言的模型。                           |
-| [Codex](https://platform.openai.com/docs/models/codex)       | 一组可以理解和生成代码，包括将自然语言翻译成代码的模型。     |
+| 模型                                                                            | 模型                                                         |
+|:------------------------------------------------------------------------------| :----------------------------------------------------------- |
+| [GPT-4](https://platform.openai.com/docs/models/gpt-4) 有限的测试版                 | 一组模型，可以在 GPT-3.5 基础上进行改进，能够理解并生成自然语言或代码。 |
+| [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5)                    | OpenAI正在开发一组名为 Codex 的新模型，它们是在 GPT-3 基础上进行改进的。Codex 模型可以生成代码，并具有编码和自然语言理解功能。这些模型正在不断优化中，OpenAI 希望这些模型能够进一步改善自然语言和代码生成方面的性能表现。 |
+| [DALL·E](https://platform.openai.com/docs/models/dall-e) Beta                 | 一个模型，可以根据自然语言提示生成和编辑图像。               |
+| [Whisper](https://platform.openai.com/docs/models/whisper) Beta               | 一个可以将音频转换为文本的模型。                             |
+| [Embeddings](https://platform.openai.com/docs/models/embeddings) | 一组能够将文本转换成数字形式的模型                           |
+| [Moderation](https://platform.openai.com/docs/models/moderation)        | 一种经过调整的模型，能够检测文本中可能存在敏感或不安全内容。 |
+| [GPT-3](https://platform.openai.com/docs/models/gpt-3)                        | 一组可以理解和生成自然语言的模型。                           |
+| [Codex](https://platform.openai.com/docs/models/codex)                        | 一组可以理解和生成代码，包括将自然语言翻译成代码的模型。     |
 
 我们还发布了一些开源模型，包括[Point-E](https://github.com/openai/point-e)、[Whisper](https://github.com/openai/whisper)、[Jukebox](https://github.com/openai/jukebox)和[CLIP](https://github.com/openai/CLIP)。
 
@@ -21,16 +21,16 @@ OpenAI API 由一组能力和价格不同的多样化模型支持。您还可以
 
 [模型端点兼容性](https://platform.openai.com/docs/models/model-endpoint-compatibility)
 
-| 端点          | 型号名称                                                     |
-| :------------ | :----------------------------------------------------------- |
-| /v1/聊天/完成 | gpt-4, gpt-4-0314, gpt-4-32k, gpt-4-32k-0314, gpt-3.5-turbo, gpt-3.5-turbo-0301 |
-| /V1/完成      | text-davinci-003, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001 |
-| /v1/编辑      | text-davinci-edit-001, code-davinci-edit-001                 |
-| /v1/音频/转录 | 耳语1                                                        |
-| /v1/音频/翻译 | 耳语1                                                        |
-| /v1/微型      | davinci, curie, babbage, ada                                 |
-| /v1/嵌入      | text-embedding-ada-002，文本搜索-ADA-DOC-001                 |
-| /V1/适中      | 文本调整稳定，文本 - 修改胶                                  |
+| 端点                        | 型号名称                                                     |
+|:--------------------------| :----------------------------------------------------------- |
+| /v1/chat/completions      | gpt-4, gpt-4-0314, gpt-4-32k, gpt-4-32k-0314, gpt-3.5-turbo, gpt-3.5-turbo-0301 |
+| /v1/completions           | text-davinci-003, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001 |
+| /v1/edits                 | text-davinci-edit-001, code-davinci-edit-001                 |
+| /v1/audio/transcriptions  | whisper-1                                                        |
+| /v1/audio/translations                 | whisper-1                                                        |
+| /v1/fine-tunes                    | davinci, curie, babbage, ada                                 |
+| /v1/embeddings                    | text-embedding-ada-002, text-search-ada-doc-001                 |
+| /v1/moderations                    | text-moderation-stable, text-moderation-latest                                |
 
 这个列表不包含我们的第一代嵌入模型和 DALL·E 模型。关于嵌入模型的更多信息，请参考[这里](https://platform.openai.com/docs/guides/embeddings/similarity-embeddings)；有关 DALL·E 模型的更多信息，请参考[这里](https://platform.openai.com/docs/guides/images/image-generation-beta)。
 
@@ -159,17 +159,17 @@ Codex模型现已被弃用。它们是我们GPT-3模型的后代，可以理解�
 
 | 终端            | 用于训练的数据 | 默认存储期限   | 符合零数据保留资格 |
 | :-------------- | :------------- | :------------- | :----------------- |
-| /V1/完成        | 否             | 30天           | 是                 |
-| /v1/聊天/完成   | 否             | 30天           | 是                 |
-| /v1/编辑        | 否             | 30天           | 是                 |
-| /v1/图片/几代人 | 否             | 30天           | 否                 |
-| /v1/图片/编辑   | 否             | 30天           | 否                 |
-| /v1/图像/变化   | 否             | 30天           | 否                 |
-| /v1/嵌入        | 否             | 30天           | 是                 |
-| /v1/音频/转录   | 否             | 零数据保留     | -                  |
-| /v1/音频/翻译   | 否             | 零数据保留     | -                  |
-| /v1/文件        | 否             | 直到被客户删除 | 否                 |
-| /v1/微调        | 否             | 直到被客户删除 | 否                 |
-| /v1/适中        | 否             | 零数据保留     | -                  |
+| /v1/completions        | 否             | 30天           | 是                 |
+| /v1/chat/completions  | 否             | 30天           | 是                 |
+| /v1/edits        | 否             | 30天           | 是                 |
+| /v1/images/generations | 否             | 30天           | 否                 |
+| /v1/images/edits   | 否             | 30天           | 否                 |
+| /v1/images/variations   | 否             | 30天           | 否                 |
+| /v1/embeddings        | 否             | 30天           | 是                 |
+| /v1/audio/transcriptions   | 否             | 零数据保留     | -                  |
+| /v1/audio/translations   | 否             | 零数据保留     | -                  |
+| /v1/files        | 否             | 直到被客户删除 | 否                 |
+| /v1/fine-tunes        | 否             | 直到被客户删除 | 否                 |
+| /v1/moderations        | 否             | 零数据保留     | -                  |
 
 请参阅我们的[API数据使用政策](https://openai.com/policies/api-data-usage-policies)了解详情。

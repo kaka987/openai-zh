@@ -28,6 +28,6 @@
   * [3.2 开始](openai-zh/018-Getting-Started.md)
   * [3.3 验证](openai-zh/019-Authentication.md)
   * [3.4 示例](openai-zh/020-Examples.md)
-  * [3.5 产品](openai-zh/003.md)
-  * [3.6 插件审查](openai-zh/021-Production.md)
+  * [3.5 产品](openai-zh/021-Production.md)
+  * [3.6 插件审查](openai-zh/022-Plugin-review.md)
   * [3.7 插件政策](https://openai.com/policies/usage-policies#plugin-policies)
